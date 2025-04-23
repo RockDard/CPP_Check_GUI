@@ -1,0 +1,10 @@
+[package]
+name = "cppcheck_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Актуальные версии на момент обновления
+gtk4 = { version = "0.9", package = "gtk4" }
+gio  = "0.20"
+glib = "0.20"

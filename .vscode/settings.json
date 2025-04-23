@@ -1,0 +1,9 @@
+{
+  // Включаем авто‑форматирование при сохранении
+  "editor.formatOnSave": true,
+  // Настройки rust-analyzer
+  "rust-analyzer.cargo.allFeatures": true,
+  // Автоматическая проверка кода при сохранении
+  "rust-analyzer.checkOnSave.enable": true,
+  "rust-analyzer.checkOnSave.command": "clippy"
+}
